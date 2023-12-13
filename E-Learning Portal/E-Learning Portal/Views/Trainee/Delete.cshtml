@@ -1,0 +1,53 @@
+@model UserDetails
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="text-white"  align="center" style="background-color: rgba(40, 39, 39, 0.8);">
+    <h1>Delete Trainee Details</h1>
+    <hr/>
+<form method="post">
+   <div class="form-group">
+    
+    <label class="form-label" asp-for="UserId">Id:
+      <input type="number" size="20" asp-for="UserId" class="form-control" disabled/>
+    </label>
+    
+  </div>
+
+  <!-- Email input --> 
+  <div class="form-group">
+    
+    <label class="form-label" asp-for="Username">Name : 
+      <input size="20" asp-for="Username" class="form-control" disabled/>
+    </label>
+  </div>
+
+  <div class="form-outline mb-4">
+    <label class="form-label" asp-for="UserDprt">Email id: 
+    <input size="20" asp-for="UserEmail" class="form-control" disabled/>
+    </label>
+  </div>
+   <div class="form-outline mb-4">
+    <label class="form-label" asp-for="UserDprt">Department: 
+    <input size="20" asp-for="UserDprt" class="form-control" disabled/>
+    </label>
+  </div>
+
+ <div class="form-outline mb-4">
+    <label class="form-label" asp-for="UserGender">Gender: 
+    <input size="20" asp-for="UserGender" class="form-control" disabled/>
+    </label>
+  </div>
+
+<div class="form-outline mb-4">
+    <label class="form-label" asp-for="UserRole">Role: 
+    <input size="20" asp-for="UserRole" class="form-control" value="Trainee" readonly disabled/>
+    </label>
+  </div>
+
+  <div class="form-outline mb-4">
+    <label class="form-label">@ViewBag.Message</label>
+  </div>
+  <button type="submit" ali class="btn btn-primary btn-block mb-4 align-center">Delete</button>
+
+</form> 

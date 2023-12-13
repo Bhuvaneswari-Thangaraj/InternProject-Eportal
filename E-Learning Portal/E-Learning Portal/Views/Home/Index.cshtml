@@ -1,0 +1,359 @@
+﻿@model LoginModel
+@{
+    ViewData["Title"] = "Signin";
+   
+}
+ @{Layout = null;}
+@* 
+<div class="text-white"  align="center" style="background-color: rgba(40, 39, 39, 0.8);">
+    <h1>Sign In</h1>
+<form method="post" text-align="center">
+  <div class="form-outline mb-4">
+  <label asp-for="Role">Choose Your Role:
+        <select asp-for="Role" required>
+          <option disabled selected>-Role!-</option>
+            <option type="radio" value="Admin">Admin</option>
+            <option type="radio" value="Mentor">Mentor</option>
+            <option type="radio" value="Trainee">Trainee</option>       
+        </select></label></div>
+        <span asp-validation-for="Role" class="text-danger"></span>
+         <!-- Email input -->
+  <div class="form-outline mb-4">
+    <label class="form-label" asp-for="Username">Enter Username:  
+      <input  size="20" asp-for="Username" class="form-control"/>
+              <span asp-validation-for="Username" class="text-danger"></span>
+    </label> </div>
+
+<div class="form-outline mb-4">
+    <label class="form-label" asp-for="Password">Enter Password:
+        <div class="input-group">
+            <input type="password" asp-for="Password" class="form-control" id="password-input">
+            <button class="btn btn-outline-secondary" type="button" id="password-toggle" onclick="togglePassword()">
+                <i class="bi bi-eye-slash-fill"></i>
+            </button>
+        </div>
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </label>
+</div>
+
+  <!-- 2 column grid layout for inline styling -->
+  <div class="row mb-4">
+        <h5 style="color:red;">@ViewBag.message</h5>
+  </div>
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+  
+</form>
+</div>
+@section Scripts
+    {
+    @{
+      <Partial name="_ValidationScriptsPartial" />
+    }
+  }
+
+<script>
+    function togglePassword() {
+        var passwordInput = document.getElementById("password-input");
+        var passwordToggle = document.getElementById("password-toggle");
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            passwordToggle.innerHTML = '<i class="bi bi-eye-fill"></i>';
+        } else {
+            passwordInput.type = "password";
+            passwordToggle.innerHTML = '<i class="bi bi-eye-slash-fill"></i>';
+        }
+    }
+
+</script> *@
+<html>
+<head>
+  <title>E-learning</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">        
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy" rel="stylesheet">                             
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+        <li><a class="nav-link scrollto" href="#login">Login</a></li>
+        <li><a class="nav-link scrollto" href="#courses">Courses</a></li>
+        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+      </ul>    
+    </nav>
+  </header>
+  <!-- ======= HomeSection ======= -->
+  <section id="home">
+    <div class="hero-container">
+      <h1>Welcome to the world of knowledge</h1>
+      <h2>Let's the future begins here...</h2>
+      <a href="#login" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
+    </div>
+  </section>
+  <main id="main">
+    <!-- ======= Login Section ======= -->
+    <section id="login">
+      <div class="container-fluid">
+    <div class="row no-gutter">
+        <!-- The image half -->
+        <div class="col-md-6 d-none d-md-flex bg-image"></div>
+
+
+        <!-- The content half -->
+        <div class="col-md-6 bg-light">
+            <div class="login d-flex align-items-center py-5">
+
+                <!-- Login content-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10 col-xl-7 mx-auto">
+                          <div>
+                            <h3 class="display-4"><b>Sign In</b></h3></div>
+                            
+                            <form method="post" asp-action="Index">
+                              <div class="form-group mb-3">
+                                    <select asp-for="Role" class="form-control rounded-pill border-0 shadow-sm px-4" required>
+                                     <option disabled selected>-Select Your Role!-</option>
+                                      <option type="radio" value="Admin">Admin</option>
+                                      <option type="radio" value="Mentor">Mentor</option>
+                                      <option type="radio" value="Trainee">Trainee</option>       
+                                  </select>
+                                    <span asp-validation-for="Role" class="text-danger"></span>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <input id="inputUsername" placeholder="Username" asp-for="Username" class="form-control rounded-pill border-0 shadow-sm px-4">
+                                    <span asp-validation-for="Username" class="text-danger"></span>
+                                </div>
+                                <div class="form-group mb-3">
+                                <div class="input-group">
+                                    <input id="password-input" type="password" placeholder="Password" asp-for="Password" class="form-control rounded-pill border-0 shadow-sm px-4">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary border-0 shadow-sm" type="button" id="password-toggle" onclick="togglePassword()">
+                                            <i class="bi bi-eye-slash-fill"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                                 <div class="row mb-4">
+        <h5 style="color:red;">@ViewBag.message</h5>
+  </div>
+<div>
+                                <button type="submit" class="btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm">Sign in</button>
+                               </div>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- End -->
+
+            </div>
+        </div><!-- End -->
+
+    </div>
+</div>
+@section Scripts
+    {
+    @{
+      <Partial name="_ValidationScriptsPartial" />
+    }
+  }
+
+<script>
+    function togglePassword() {
+        var passwordInput = document.getElementById("password-input");
+        var passwordToggle = document.getElementById("password-toggle");
+        if (passwordInput.type === "password") {
+            passwordInput.type = "text";
+            passwordToggle.innerHTML = '<i class="bi bi-eye-fill"></i>';
+        } else {
+            passwordInput.type = "password";
+            passwordToggle.innerHTML = '<i class="bi bi-eye-slash-fill"></i>';
+        }
+    }
+
+</script>
+
+    </section>
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="courses" class="testimonials">
+      <div class="container position-relative">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                
+                <h3>Data Science</h3>
+                <!-- <h4>Ceo &amp; Founder</h4> -->
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Complex business problems require not only engineering expertise, but also an understanding of the data lying beneath and how it impacts business performance.
+                 Our data scientists specialize in unearthing variables in the data that affect an outcome and together with our Big Data engineers bring a holistic solution to our customers using engineering and statistical analysis capabilities.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                
+                <h3>Big Data</h3>
+                <!-- <h4>Designer</h4> -->
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Traditional relational data management pose a lot of latency issues in analyzing such large volumes of data. As a result, many companies are rethinking their approach to enterprise storage and architecture to leverage big data. Storing and managing these large volumes of information is a challenge for many enterprises,
+                 and big data offers significant opportunities that enterprises can tap into.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+               
+                <h3>Enterprise Data Management</h3>
+                <!-- <h4>Store Owner</h4> -->
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enterprises today need robust data management solutions to manage the high volumes of data coming in at high speed every single day.
+                 We at Aspire Systems help organizations to succeed by prioritizing an analytics-approach in enterprise data management architecture to solve problems.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                
+                <h3>Block Chain</h3>
+                <!-- <h4>Freelancer</h4> -->
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Aspire was built to run on it's own dedicated core blockchain with gas coin known as "GASP". 
+                By allowing Aspire to run on the gAsp blockchain, Aspire has improved three major components, speed, security, and cost efficiency when creating and sending digital assets.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Contact Us</span>
+          <h2>Contact Us</h2>
+          </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-share-alt"></i>
+                  <h3>Social Profiles</h3>
+                  <div class="social-links">
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email</h3>
+                  <p>info-india@aspiresys.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call</h3>
+                  <p>+ 91 44 6740 4000</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" requir\ed></textarea>
+              </div><br>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Aspire Systems</h3>
+      <p>Attention. Always.</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>E-learning Portal</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by -<a><strong>Bhuvaneswari</strong></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

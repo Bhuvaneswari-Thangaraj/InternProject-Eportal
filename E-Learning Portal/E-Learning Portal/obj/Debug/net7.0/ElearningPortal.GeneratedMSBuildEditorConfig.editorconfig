@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ElearningPortal
+build_property.RootNamespace = ElearningPortal
+build_property.ProjectDir = E:\Project\Bhuvaneswari_E-Learning Portal-GCT\E-Learning Portal\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\Project\Bhuvaneswari_E-Learning Portal-GCT\E-Learning Portal
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Course/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Course/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Course/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERpc3BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Course/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Home/Forgotpwd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3Jnb3Rwd2QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Home/Roles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSb2xlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Mentor/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Mentor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Mentor/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXERpc3BsYXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Mentor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Mentor/Manage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXE1hbmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Shared/Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdGlmaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Trainee/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Trainee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Trainee/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxEaXNwbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Trainee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Trainee/Feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxGZWVkYmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Trainee/MoreDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxNb3JlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Trainee/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Project/Bhuvaneswari_E-Learning Portal-GCT/E-Learning Portal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-idva2o8xoe

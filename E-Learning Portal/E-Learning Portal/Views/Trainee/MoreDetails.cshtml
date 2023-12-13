@@ -1,0 +1,196 @@
+@model IEnumerable<CourseDetails>
+
+@{
+    ViewData["Title"] = "MoreDetails";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+ 
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+img{
+    
+    height: 200px;
+}
+@* dropdown profile *@
+
+.dropbtn {
+  background-color: #7004aa;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+img:hover{
+  opacity: 0.5;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #434743;}
+</style>
+
+</head>
+<body>
+
+<div class="main">
+    <h2>List of courses...</h2>
+    <hr/>
+<div style="display: flex; justify-content: flex-end">
+  <div class="dropdown">
+  <p ><i class="bi bi-person-circle"></i>@ViewBag.sessionName</p>
+  <div class="dropdown-content">
+    <ul>
+    <a style="color:black" class="next" asp-area="" asp-controller="Trainee" asp-action="Profile">My profile</a></ul>
+    <ul>
+    <a style="color:black" class="next" asp-area="" asp-controller="Home" asp-action="Logout">Logout</a></ul>
+    
+  </div>
+</div>
+    <br><br>
+    </div>
+   
+<div id="myBtnContainer">
+
+  <button class="btn active" onclick="filterSelection('all')" data-source="all"> Show all</button>
+  <button class="btn" onclick="filterSelection('Video')" data-source="video"> Videos</button>
+  <button class="btn" onclick="filterSelection('Pdf')" data-source="pdf"> Documents</button>
+
+
+    <div class="row">
+        @foreach (var course in Model)
+        {
+            <div class="column @course.SourceType.ToLower()">
+                <div class="content">
+                    <a asp-controller="Trainee" asp-action="ViewContent" asp-route-id="@course.CId" style="text-decoration:none; color:black">
+                        <!-- Display an image -->
+                        <h4>@course.CName</h4>
+                        <p>Author: @course.Author</p>
+                        <p>Source Type: @course.SourceType</p>
+                    </a>
+                    <form asp-controller="Trainee" asp-action="Enroll" method="post">
+                        <input type="hidden" name="courseId" value="@course.CId" />
+                         <input type="hidden" name="authorName" value="@course.Author" />
+                         <input type="hidden" name="courseName" value="@course.CName" />
+                        <button class="btn" style="color:blue" type="submit">Enroll Me</button>
+                    </form>
+                                    </div>
+            </div>
+        }
+    </div>
+</div>
+</div>
+</body>
+<script>
+function filterSelection(sourceType) {
+  var columns = document.getElementsByClassName("column");
+  
+  for (var i = 0; i < columns.length; i++) {
+    var column = columns[i];
+    var classes = column.className.split(" ");
+    var courseSourceType = classes[1]; // Assuming the source type is the second class in the class list
+    if (sourceType === "all" || courseSourceType === sourceType.toLowerCase()) {
+      column.style.display = "";
+    } else {
+      column.style.display = "none";
+    }
+  }
+  
+  var buttons = document.getElementsByClassName("btn");
+  for (var j = 0; j < buttons.length; j++) {
+    buttons[j].classList.remove("active");
+  }
+  document.querySelector(".btn[data-source='" + sourceType + "']").classList.add("active");
+}
+</script>
+
+</html>

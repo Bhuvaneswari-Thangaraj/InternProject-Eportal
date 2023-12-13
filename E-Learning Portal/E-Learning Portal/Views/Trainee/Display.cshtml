@@ -1,0 +1,71 @@
+@model IEnumerable<UserDetails>
+    @{
+        ViewData["Title"] = "Display";
+    }
+    <style>
+.bg-image{
+background-image: url('../images/l5.jpg'); 
+padding-top: 80px;
+background-size: cover;
+backdrop-filter: blur(10px);
+ }
+</style>
+<body class="bg-image">
+<h1>List of Trainee</h1>
+<hr/>
+<form>
+<button asp-controller="Trainee" asp-action="Add" class="btn btn-primary mb-3" style="float: right;"><i class="bi bi-plus-circle"></i> Add New Trainee</button>
+
+
+<table class="table table-responsive table-hover table-bordered" style="background-color: whitesmoke;" width="80%" border="2">
+    <thead>
+        <tr>
+            <th> Trainee Id</th>
+            <th>  Name</th>
+            <th> Password</th>
+            <th> Email</th>
+            <th> Department</th>
+            <th> Gender</th>
+            <th> Role</th>
+            <th> Actions</th>
+
+            
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model != null && Model.Any())
+        {
+        @foreach (UserDetails item in Model)
+        {
+            <tr>
+                <td>@item.UserId</td>
+                <td>@item.Username</td>
+                <td>@item.Password</td>
+                <td>@item.UserEmail</td>
+                <td>@item.UserDprt</td>
+                <td>@item.UserGender</td>
+                <td>@item.UserRole</td>
+                 <td>
+                    <div class="btn-group btn-group-sm">
+                        <a asp-controller="Trainee" asp-action="Edit" asp-route-itemid="@item.UserId" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
+                       <a asp-controller="Trainee" asp-action="Delete" asp-route-itemid="@item.UserId" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                    </div>
+                </td>
+            </tr> 
+        }
+        }
+        else
+        {
+            <tr>
+                <td colspan="8">
+                    <div>
+                    No trainees are available at this moment!
+                    </div>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</form>
+</body>

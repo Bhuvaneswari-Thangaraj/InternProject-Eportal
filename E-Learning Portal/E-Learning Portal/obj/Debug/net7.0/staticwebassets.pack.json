@@ -1,0 +1,689 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ElearningPortal.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ElearningPortal.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\img\\asp1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\asp1.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\img\\asp2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\asp2.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\img\\aspire.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\aspire.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\img\\aspirefade.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\aspirefade.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\img\\aspirehd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\aspirehd.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\img\\footer.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\img\\logo1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo1.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\doc\\C Sharp.pdf",
+      "PackagePath": "staticwebassets\\doc\\C Sharp.pdf"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\doc\\Database Systems.pdf",
+      "PackagePath": "staticwebassets\\doc\\Database Systems.pdf"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\doc\\devops.pdf",
+      "PackagePath": "staticwebassets\\doc\\devops.pdf"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\doc\\dotnet.pdf",
+      "PackagePath": "staticwebassets\\doc\\dotnet.pdf"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\doc\\intro-programming-python.pdf",
+      "PackagePath": "staticwebassets\\doc\\intro-programming-python.pdf"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\doc\\introcomp.pdf",
+      "PackagePath": "staticwebassets\\doc\\introcomp.pdf"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\doc\\sample.pdf",
+      "PackagePath": "staticwebassets\\doc\\sample.pdf"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\doc\\webfund.pdf",
+      "PackagePath": "staticwebassets\\doc\\webfund.pdf"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\aws.png",
+      "PackagePath": "staticwebassets\\images\\aws.png"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\block.jpg",
+      "PackagePath": "staticwebassets\\images\\block.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\comlogo.jpg",
+      "PackagePath": "staticwebassets\\images\\comlogo.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\cpp.jpg",
+      "PackagePath": "staticwebassets\\images\\cpp.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\cs.jpg",
+      "PackagePath": "staticwebassets\\images\\cs.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\daa.png",
+      "PackagePath": "staticwebassets\\images\\daa.png"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\devopslogo.png",
+      "PackagePath": "staticwebassets\\images\\devopslogo.png"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\dotnetlogo.png",
+      "PackagePath": "staticwebassets\\images\\dotnetlogo.png"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\hadoop.png",
+      "PackagePath": "staticwebassets\\images\\hadoop.png"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\java.jpg",
+      "PackagePath": "staticwebassets\\images\\java.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\l1.jpg",
+      "PackagePath": "staticwebassets\\images\\l1.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\l2.jpg",
+      "PackagePath": "staticwebassets\\images\\l2.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\l3.jpg",
+      "PackagePath": "staticwebassets\\images\\l3.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\l4.jpg",
+      "PackagePath": "staticwebassets\\images\\l4.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\l5.jpg",
+      "PackagePath": "staticwebassets\\images\\l5.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\person.png",
+      "PackagePath": "staticwebassets\\images\\person.png"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\python.jpg",
+      "PackagePath": "staticwebassets\\images\\python.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\rdbms.jpg",
+      "PackagePath": "staticwebassets\\images\\rdbms.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\science.jpg",
+      "PackagePath": "staticwebassets\\images\\science.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\swagger.png",
+      "PackagePath": "staticwebassets\\images\\swagger.png"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\images\\webfund.jpg",
+      "PackagePath": "staticwebassets\\images\\webfund.jpg"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\videos\\AWS_ _ Amazon Web Services.mp4",
+      "PackagePath": "staticwebassets\\videos\\AWS_ _ Amazon Web Services.mp4"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\videos\\Blockchain.mp4",
+      "PackagePath": "staticwebassets\\videos\\Blockchain.mp4"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\videos\\Data Science.mp4",
+      "PackagePath": "staticwebassets\\videos\\Data Science.mp4"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\videos\\Hadoop_.mp4",
+      "PackagePath": "staticwebassets\\videos\\Hadoop_.mp4"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\videos\\Java.mp4",
+      "PackagePath": "staticwebassets\\videos\\Java.mp4"
+    },
+    {
+      "Id": "E:\\Project\\Bhuvaneswari_E-Learning Portal-GCT\\E-Learning Portal\\wwwroot\\videos\\Swagger.mp4",
+      "PackagePath": "staticwebassets\\videos\\Swagger.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ElearningPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ElearningPortal.props",
+      "PackagePath": "build\\ElearningPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ElearningPortal.props",
+      "PackagePath": "buildMultiTargeting\\ElearningPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ElearningPortal.props",
+      "PackagePath": "buildTransitive\\ElearningPortal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

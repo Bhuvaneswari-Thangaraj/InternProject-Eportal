@@ -1,0 +1,72 @@
+@model UserDetails
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="text-white"  align="center" style="background-color: rgba(40, 39, 39, 0.8);">
+    <h1>Edit Trainee Details</h1>
+    <hr/>
+<form method="post">
+   <div class="form-group">
+    
+    <label class="form-label" asp-for="UserId"> Enter your Id:
+      <input type="number" size="20" asp-for="UserId" class="form-control" pattern="[0-9]{6}" readonly/>
+    </label>
+    
+  </div>
+
+  <!-- Email input --> 
+  <div class="form-group">
+    
+    <label class="form-label" asp-for="Username">Enter your Fullname : 
+      <input size="20" asp-for="Username" class="form-control" required/>
+       <span asp-validation-for="Username" class="text-danger"></span>
+    </label>
+    
+  </div>
+  <div class="form-outline mb-4">
+    <label class="form-label" asp-for="Password">Enter Password: 
+    <input type="password" size="20" asp-for="Password" class="form-control" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" />
+     <span asp-validation-for="Password" class="text-danger"></span>
+    </label>
+  </div>
+
+  <div class="form-outline mb-4">
+    <label class="form-label" asp-for="UserDprt">Enter Your Email id: 
+    <input size="20" asp-for="UserEmail" class="form-control" />
+     <span asp-validation-for="UserEmail" class="text-danger"></span>
+    </label>
+  </div>
+   <div class="form-outline mb-4">
+    <label class="form-label" asp-for="UserDprt">Enter Your Department: 
+    <input size="20" asp-for="UserDprt" class="form-control" />
+     <span asp-validation-for="UserDprt" class="text-danger"></span>
+    </label>
+  </div>
+
+
+   <div class="form-outline mb-4">
+    <label class="form-label" asp-for="UserGender">Enter your Gender: 
+      <select asp-for="UserGender">
+          <option disabled selected> -- select your gender -- </option>
+            <option type="radio" value="Female">Female</option>
+            <option type="radio" value="Male">Male</option>
+            <option type="radio" value="Unknown">Unknown</option>
+            
+        </select>
+   <span asp-validation-for="UserGender" class="text-danger"></span>
+    </label>
+  </div>
+
+<div class="form-outline mb-4">
+    <label class="form-label" asp-for="UserRole">Enter your Role: 
+    <input size="20" asp-for="UserRole" class="form-control" value="Trainee" readonly/>
+    
+    </label>
+  </div>
+
+  <div class="form-outline mb-4">
+    <label class="form-label">@ViewBag.Message</label>
+  </div>
+  <button type="submit" ali class="btn btn-primary btn-block mb-4 align-center">Update</button>
+
+</form> 

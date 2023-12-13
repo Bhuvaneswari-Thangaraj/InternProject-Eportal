@@ -1,0 +1,30 @@
+@model UserDetails
+@{
+    ViewData["Title"] = "Roles";
+}
+<style>
+.bg-image{
+background-image: url('../images/l5.jpg'); 
+padding-top: 80px;
+background-size: cover;
+ }
+</style>
+<body class="bg-image">
+<div id="intro" class=" shadow-2-strong">
+      <div class="mask" style="background-color: rgba(40, 39, 39, 0.8);">
+        <div class="container d-flex align-items-center justify-content-center text-center h-500">
+          <div class="text-white">
+            <h1 class="mb-3">Welcome Admin...!!!</h1>
+            
+
+            <a class="btn btn-outline-light btn-lg m-1" asp-controller="Trainee" asp-action="Display" role="button"
+              rel="nofollow" >Manage Trainee</a>
+              <a class="btn btn-outline-light btn-lg m-1"asp-controller="Course" asp-action="Display" role="button"
+              rel="nofollow" >Manage courses</a>
+
+          <a class="btn btn-outline-light btn-lg m-1" asp-controller="Mentor" asp-action="Display" role="button"
+              rel="nofollow" >Manage Mentor</a>
+
+
+      
+    </div></body>

@@ -1,0 +1,62 @@
+@model CourseDetails
+@{
+    ViewData["Title"] = "Add";
+}
+
+<div class="text-white" align="center" style="background-color: rgba(40, 39, 39, 0.8);">
+    <h1>Add Course Details</h1>
+    <hr />
+    <form method="post" enctype="multipart/form-data">
+
+        <div class="form-group">
+            <label class="form-label" asp-for="CName">Enter Course Name :
+                <input size="20" asp-for="CName" class="form-control" />
+                <span asp-validation-for="CName" class="text-danger"></span>
+            </label>
+        </div>
+        <div class="form-outline mb-4">
+            <label class="form-label" asp-for="Author">Enter Author Name:
+                <input size="20" asp-for="Author" class="form-control" />
+                <span asp-validation-for="Author" class="text-danger"></span>
+            </label>
+        </div>
+        <div class="form-outline mb-4">
+            <label class="form-label" asp-for="SourceType">Enter Document Type: </label>
+            <div>
+                <select class="form-label" asp-for="SourceType" id="SourceType">
+                    <option disabled selected> --Type of Document-- </option>
+                    <option type="radio" value="Pdf">PDF</option>
+                    <option type="radio" value="Video">Video</option>
+                </select>
+            </div>
+            <span asp-validation-for="SourceType" class="text-danger"></span>
+        </div>
+        <div class="form-outlin mb-4">
+            <label class="form-label" asp-for="Source">Enter Your Document: </label>
+            <div><input type="file" asp-for="Source" accept=".pdf,.mp4,.avi" id="FileInput" /></div>
+            <span asp-validation-for="Source" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block mb-4 align-center">Add</button>
+
+    </form>
+</div>
+
+<script>
+    document.getElementById('SourceType').addEventListener('change', function () {
+        var fileInput = document.getElementById('FileInput');
+        var fileType = this.value;
+        
+        if (fileType === 'Pdf') {
+            fileInput.accept = '.pdf';
+        } else if (fileType === 'Video') {
+            fileInput.accept = '.mp4';
+        }
+    });
+</script>
+@section Scripts
+    {
+    @{
+      <Partial name="_ValidationScriptsPartial" />
+    }
+  }

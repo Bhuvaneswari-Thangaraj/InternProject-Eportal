@@ -1,0 +1,73 @@
+@model MentorDetails
+@{
+    ViewData["Title"] = "Add";
+}
+
+<div class="text-white"  align="center" style="background-color: rgba(40, 39, 39, 0.8);">
+    <h1>Add Mentor Details</h1>
+    <hr>
+<form method="post">
+
+  <div class="form-group">
+    
+    <label class="form-label" asp-for="Username">Enter your Fullname : 
+      <input size="20" asp-for="Username" class="form-control"/>
+            <span asp-validation-for="Username" class="text-danger"></span>
+
+    </label>
+    
+  </div>
+  <div class="form-outline mb-4">
+    <label class="form-label" asp-for="Password">Enter Password: 
+    <input type="password" size="20" asp-for="Password" class="form-control" />
+          <span asp-validation-for="Password" class="text-danger"></span>
+
+    </label>
+  </div>
+<div class="form-outline mb-4">
+    <label class="form-label" asp-for="CnfmPwd">Re-enter Password: 
+    <input type="password" size="20" asp-for="CnfmPwd" class="form-control" />
+     <span asp-validation-for="CnfmPwd" class="text-danger"></span>
+    </label>
+  </div>
+ 
+  <div class="form-outline mb-4">
+    <label class="form-label" asp-for="MentorDprt">Enter Your Email id: 
+    <input size="20" asp-for="MentorEmail" class="form-control" />
+          <span asp-validation-for="MentorEmail" class="text-danger"></span>
+          <p style="margin-left: 170px;color:red;">@ViewBag.Message2</p>
+
+    </label>
+  </div>
+   <div class="form-outline mb-4">
+    <label class="form-label" asp-for="MentorDprt">Enter Your Department: 
+    <input size="20" asp-for="MentorDprt" class="form-control" />
+     <span asp-validation-for="MentorDprt" class="text-danger"></span>
+    </label>
+  </div>
+
+ <div class="form-outline mb-4">
+    <label class="form-label" asp-for="MentorGender">Enter your Gender: 
+      <select asp-for="MentorGender">
+          <option disabled selected> -- select your gender -- </option>
+            <option type="radio" value="Female">Female</option>
+            <option type="radio" value="Male">Male</option>
+            <option type="radio" value="Unknown">Unknown</option>
+            
+        </select>
+   
+    </label>
+  </div>
+
+<div class="form-outline mb-4">
+    <label class="form-label" asp-for="MentorRole">Enter your Role: 
+    <input size="20" asp-for="MentorRole" class="form-control" value="Mentor" readonly/>
+    </label>
+  </div>
+
+  <div class="form-outline mb-4">
+    <label class="form-label">@ViewBag.Message </label>
+  </div>
+  <button type="submit" ali class="btn btn-primary btn-block mb-4 align-center">Add</button>
+
+</form> </div>

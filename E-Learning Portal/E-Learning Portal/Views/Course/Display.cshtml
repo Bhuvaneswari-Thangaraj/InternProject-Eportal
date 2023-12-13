@@ -1,0 +1,74 @@
+
+@model IEnumerable<CourseDetails>
+@{
+    ViewData["Title"] = "Display";
+}
+<style>
+    .bg-image {
+        background-image: url('../images/l5.jpg');
+        padding-top: 80px;
+        background-size: cover;
+        backdrop-filter: blur(10px);
+    }
+</style>
+<body class="bg-image">
+    <h1>List of Course</h1>
+    <hr />
+    <form>
+
+        <button asp-action="Add" class="btn btn-primary mb-3" style="float: right;"><i class="bi bi-plus-circle"></i> Add new Course</button>
+        <table class="table table-responsive table-hover table-bordered" style="background-color: whitesmoke;" width="80%" border="2">
+            <thead>
+                <tr class="table-active">
+                    <th> Course Id</th>
+                    <th> Course Name</th>
+                    <th> Mentor Name</th>
+                    <th> Source Type</th>
+                    <th> Source</th>
+                    <th> Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (CourseDetails item in Model)
+                    {
+                        <tr>
+                            <td>@item.CId</td>
+                            <td>@item.CName</td>
+                            <td>@item.Author</td>
+                            <td>@item.SourceType</td>
+                            <td>
+                                @if (item.SourceType == "Pdf")
+                                {
+                                    <a asp-action="ViewContent" asp-route-id="@item.CId">View PDF</a>
+                                   
+                                }
+                                else if (item.SourceType == "Video")
+                                {
+                                    <a asp-action="ViewContent" asp-route-id="@item.CId">View Video</a>
+                                }
+                            </td>
+                            <td>
+                                <div class="btn-group btn-group-sm">
+                                    <a asp-controller="Course" asp-action="Edit" asp-route-itemid="@item.CId" class="btn btn-primary"><i class="bi bi-pencil-square"></i></a>
+                                    <a asp-controller="Course" asp-action="Delete" asp-route-itemid="@item.CId" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">
+                            <div>
+                                No courses are available at this moment!
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </form>
+</body>

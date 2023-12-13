@@ -1,0 +1,20 @@
+@model MailSettings
+@{
+    ViewData["Title"] = "Forgotpwd";
+}
+
+<div class="text-white"  align="center" style="background-color: rgba(40, 39, 39, 0.8);">
+    <h1>Forgot Password?</h1>
+<form text-align="center" method="post">
+  <div class="form-outline mb-4">
+    <label class="form-label" asp-for="UserEmail">Enter your registered mail:  
+      <input type="email" size="20" asp-for="UserEmail" class="form-control" required/>
+    </label> 
+  </div>
+  <div>
+  <p style="margin-left: 170px;color:red;">@ViewBag.message</p></div>
+ <button type="submit" class="btn btn-primary btn-block mb-4">Request a password</button>
+
+  
+</form>
+</div>

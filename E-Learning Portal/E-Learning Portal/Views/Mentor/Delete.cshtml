@@ -1,0 +1,49 @@
+@model MentorDetails
+@{
+    ViewData["Title"] = "Edit";
+}
+<div class="text-white"  align="center" style="background-color: rgba(40, 39, 39, 0.8);">
+    <h1>Edit Mentor Details</h1>
+    <hr/>
+<form method="post">
+    <div class="form-group">
+    
+    <label class="form-label" asp-for="MentorId"> Mentor Id : 
+      <input size="20" asp-for="MentorId" class="form-control" readonly disabled/>
+    </label>
+  </div>
+   
+   <div class="form-group">
+    
+    <label class="form-label" asp-for="Username">Name : 
+      <input size="20" asp-for="Username" class="form-control" disabled/>
+    </label>
+    
+  </div>
+   <div class="form-outline mb-4">
+    <label class="form-label" asp-for="MentorEmail">Email id: 
+    <input size="20" asp-for="MentorEmail" class="form-control" disabled/>
+    </label>
+  </div>
+   <div class="form-outline mb-4">
+    <label class="form-label" asp-for="MentorDprt">Department: 
+    <input size="20" asp-for="MentorDprt" class="form-control" disabled/>
+    </label>
+  </div>
+
+ <div class="form-outline mb-4">
+    <label class="form-label" asp-for="MentorGender">Gender: 
+    <input size="20" asp-for="MentorGender" class="form-control" disabled/>
+    </label>
+  </div>
+
+<div class="form-outline mb-4">
+    <label class="form-label" asp-for="MentorRole">Role: 
+    <input size="20" asp-for="MentorRole" class="form-control" value="Mentor" readonly disabled/>
+    </label>
+  </div>
+
+
+  <button type="submit" ali class="btn btn-primary btn-block mb-4 align-center">Delete</button>
+
+</form> 

@@ -1,0 +1,36 @@
+@model CourseDetails
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="text-white"  align="center" style="background-color: rgba(40, 39, 39, 0.8);">
+    <h1>Delete Course Details</h1>
+    <hr/>
+<form method="post">
+    <div class="form-group">
+    
+    <label class="form-label" asp-for="CId"> Course Id : 
+      <input size="20" asp-for="CId" class="form-control" disabled/>
+    </label>
+  </div>
+   
+  <div class="form-group">
+    
+    <label class="form-label" asp-for="CName">Course Name : 
+      <input size="20" asp-for="CName" class="form-control" disabled/>
+    </label>
+  </div>
+  <div class="form-outline mb-4">
+    <label class="form-label" asp-for="Author">Author Name: 
+    <input size="20" asp-for="Author" class="form-control" disabled />
+
+    </label>
+  </div>
+  <div class="form-outline mb-4">
+    <label class="form-label" asp-for="SourceType">Document Type: 
+    <input size="20" asp-for="SourceType" class="form-control" disabled/>
+    </label>
+  </div>
+
+  <button type="submit" ali class="btn btn-primary btn-block mb-4 align-center">Delete</button>
+
+</form> 
